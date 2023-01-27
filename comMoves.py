@@ -6,7 +6,9 @@ def pickOne():
 	gameOptions = ["ROCK",
 								 "PAPER",
 							"SCISSORS"]
+	#print(gameOptions)
 	shuffle(gameOptions)
+	#print(gameOptions)
 	comPicked = choice(gameOptions)
 	#print(comPicked)
 	return comPicked

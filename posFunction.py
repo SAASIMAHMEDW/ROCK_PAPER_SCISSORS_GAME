@@ -53,3 +53,8 @@ def rPS(userChoice):
 	elif comChoice == "PAPER" and userChoice == "ROCK":
 		print("\nPAPER WIN!!!")
 		print("PAPER WIN IN THIS SITUATION\nSO COM WON THE GAME")
+
+
+if __name__ == "__main__":
+	userMoves=input("ENTER YOUR MOVES: ").upper()
+	rPS(userMoves)
