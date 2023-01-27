@@ -13,6 +13,7 @@ print("\n"+" [ "+F.MAGENTA+"ROCK"+F.WHITE+"--"+F.MAGENTA+"PAPER"+F.WHITE+"--"+F.
 print("\t<"+"-"*30+">\n")
 
 userScore = None
+comScore = None
 
 RPS = ["ROCK","PAPER","SCISSORS"]
 dummyListRPS = ["1 || ROCK","2 || PAPER","3 || SCISSORS"]
