@@ -4,8 +4,8 @@ from random import shuffle,choice
 
 def pickOne():
 	gameOptions = ["ROCK",
-								 "PAPER",
-							"SCISSORS"]
+		        "PAPER",
+			"SCISSORS"]
 	#print(gameOptions)
 	shuffle(gameOptions)
 	#print(gameOptions)
