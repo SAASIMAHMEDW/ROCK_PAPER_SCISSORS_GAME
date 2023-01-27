@@ -51,7 +51,7 @@ while True:
 		break
 	elif playAgain=="E":
 		print("_"*26)
-		print("\nYOU HAVE BEEN EDITED SUCCESSFULLY!!!")
+		print("\nYOU HAVE BEEN EXITED SUCCESSFULLY!!!")
 		break
 	else:
 		print("—"*26)
